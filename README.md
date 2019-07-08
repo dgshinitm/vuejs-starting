@@ -5,3 +5,5 @@
 		- <https://nodejs.org/>
 	* Atom editor 설치
 		- <https://atom.io/>
+	* yarn 설치
+		- npm -g install yarn
