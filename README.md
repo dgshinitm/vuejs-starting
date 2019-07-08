@@ -9,3 +9,6 @@
 		```
 		npm -g install yarn
 		```
+
+2. Vue-cli 사용
+
