@@ -6,13 +6,13 @@
 * Atom editor 설치
 	- <https://atom.io/>
 * yarn 설치
-	```
+	```console
 	npm -g install yarn
 	```
 
 ## Vue-cli 사용
 * Vue-cli 설치
-```
+```console
 npm install -g @vue/cli
 or
 yarn global add @vue/cli
@@ -22,19 +22,19 @@ yarn global add @vue/cli
 vue create new-project-name
 ```
 * Vuetify 적용 (Optional)
-```
+```console
 cd new-project-name
 vue add vuetify
 ```
 ## VueLogger 설치
 <https://www.npmjs.com/package/vuejs-logger>
-```
+```console
 cd new-project-name
 npm install vuejs-logger
 ```
 * Code example
 	- **/src/main.js**
-	```
+	```js
 	import VueLogger from 'vuejs-logger';
 	const isProduction = process.env.NODE_ENV === 'production';
 
@@ -51,7 +51,7 @@ npm install vuejs-logger
 	Vue.use(VueLogger, loggerOptions);
 	```
 	- Write logs (**/views/someVueFile.vue**)
-	```
+	```js
 	... (중략)
 	export default {
 		mothods: {
